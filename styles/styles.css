@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto; }
+
+.title, #buttons, #visualization {
+  flex: 1 100%;
+  text-align: center; }
+
+.title {
+  margin-bottom: 10px;
+  color: #999;
+  font-size: 1.5rem; }
+
+.y-buttons, .x-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 30px;
+  margin-bottom: 10px; }
+
+.btn {
+  border: 1px solid #fff;
+  padding: 4px 8px; }
+  .btn-text {
+    flex: 0 175px; }
+  .y-buttons .btn {
+    flex: 0; }
+  .x-buttons .btn {
+    flex: 0; }
+  .btn-active {
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgba(42, 116, 255, 0.8);
+    border: 1px solid rgba(42, 116, 255, 0.8); }
+  .btn:hover {
+    border: 1px solid rgba(42, 116, 255, 0.8);
+    border-radius: 5px;
+    cursor: pointer; }
+
+.points {
+  fill: rgba(42, 116, 255, 0.5); }
+
+.btn, .axis-label {
+  text-transform: capitalize; }
+
+.axis-label {
+  font-weight: bold; }
+
+/*# sourceMappingURL=styles.css.map */
